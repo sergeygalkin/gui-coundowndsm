@@ -48,6 +48,7 @@ jobs:
           GOARCH: ${{ matrix.arch }}
           GOOS: ${{ env.GOOS }}
           EXT: ${{ env.EXT }}
+          CGO_ENABLED: 1
         run: |
           go build -o ${{ env.PKG_NAME }}-${{ env.GOOS }}-${{ matrix.arch }}${{ env.EXT }} .
 
