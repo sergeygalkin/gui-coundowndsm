@@ -1,0 +1,37 @@
+# A list of randomly speaking people
+persons:
+  - "Dylan Wang"
+  - "Adam Smith"
+  - "Booker Devi"
+  - "Александр Иванов"
+  - "Taehyung Kim"
+  - "Ali Mahershala"
+  - "Sergio García"
+  - "Thomas Müller"
+  - "Danilo Luiz da Silva"
+  - "Said Ahmed Mohamed"
+  - "Abel Makkonen Tesfaye"
+  - "Junior Makabu Ilunga"
+  - "Eiza González"
+  - "Deng Xiaoping"
+  - "Robert Anthony Rodríguez"
+  - "Moyo Akandé"
+  - "Ryan Hansen"
+
+# Mix persons
+random: true
+
+# The stages of the performance with the name and time
+acts:
+  - name: "Preparation"
+    time: 10s
+  - name: "Speech"
+    time: 1m30s
+  - name: "Any questions?"
+    time: 1m
+
+# Show the total number of people and how many of them have passed
+counter: true
+
+# Shows the next person at the bottom, who will become active after passing the current one
+next: true
